@@ -20,7 +20,13 @@ export default defineConfig({
     ],
     browser_specific_settings: {
       gecko: {
-        id: 'perplexity-spaces-backup@example.com'
+        id: 'perplexity-spaces-backup@meteo.dev', // Changed to a slightly more unique ID
+        strict_min_version: '109.0',
+        // Correct object structure for data collection permissions
+        // @ts-ignore: WXT types might not have this yet
+        data_collection_permissions: {
+          required: ['none']
+        }
       }
     }
   },

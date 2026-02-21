@@ -2,7 +2,8 @@
   "name": "perplexity-space-save",
   "version": "1.0.0",
   "type": "module",
-  "description": "",
+  "author": "Meteo",
+  "description": "Backup and Restore Perplexity AI Spaces. Securely export your custom system prompts, descriptions, and icons to a JSON file.",
   "main": "index.js",
   "scripts": {
     "dev": "wxt --browser firefox",
